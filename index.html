@@ -10,119 +10,102 @@
 
       gtag('config', 'G-QPG84WK50B');
     </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viviane Talents</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Modern font for better readability -->
     <style>
         body {
-            background: linear-gradient(to bottom, purple, #0A001A);
+            background: linear-gradient(to bottom, #CC8CF0, #100057);
             font-family: Arial, sans-serif;
             color: #FFFFFF;
-            margin: 0; 
-        }
-        .container {
+            margin: 0;
             display: flex;
-            min-height: 100vh;
-        }
-        .lateral-left, .lateral-right {
-            flex: 1;
-            background: linear-gradient(to bottom, purple, #0A001A);
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; 
         }
         .center {
-            width: 1024px; 
+            width: 600px;
+            max-width: 100%;
             text-align: center;
-        }
-        .top-section {
             background: linear-gradient(to bottom, #000000, #0A001A); 
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            margin: 0;
-            padding: 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+            overflow: hidden; 
         }
         .logo {
-            width: 100%; 
+            width: 100%;
             height: auto;
-            margin: 0;
-            padding: 0;
-            border: none; 
-            display: block; 
+            display: block;
         }
-        .bottom-section {
-            background: linear-gradient(to bottom, #0D0F12, #000000);             
-            padding: 0;
-            margin: 0;
-        }
-        .main-statement {
-            font-size: 24px;
-            margin: 0px;
-            color: #FFFFFF;
+        .content {
+            padding: 20px; 
+            background: linear-gradient(to right, #09090C, #0C0D0F); 
         }
         .long-description {
-            font-size: 18px;
-            margin: 0px;
-            color: #FFFFFF;
-        }
-        .facts {
-            text-align: left;
-            max-width: 944px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .facts h2 {
-            color: #9C27B0;
-            text-align: center;
-        }
-        .facts ol {
-            padding-left: 20px;
-        }
-        .facts li {
-            margin-bottom: 10px;
+            font-size: 18px; 
+            font-weight: 700; 
+            margin-bottom: 20px; 
+            word-wrap: break-word;
+            padding: 0 10px;
         }
         .social-icons {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
+            gap: 25px; 
+            margin-top: 10px;
         }
         .social-icons a {
             color: #FFFFFF;
             text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease; 
         }
         .social-icons a:hover {
-            color: #9C27B0;
+            color: #8D00CE;
+            transform: scale(1.1); 
+        }
+        hr {
+            border: 0;
+            height: 1px; 
+            background-color: #697472;
+            margin: 20px 0; 
+        }
+        /* Media query for mobile responsiveness */
+        @media (max-width: 600px) {
+            .center {
+                width: 90%; 
+                border-radius: 15px; 
+            }
+            .long-description {
+                font-size: 18px;
+            }
+            .social-icons {
+                gap: 20px;
+            }
+            .social-icons i {
+                font-size: 1.5em; 
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="lateral-left"></div>
-        <div class="center">
-            <div class="top-section">
-                <header>
-                    <img src="logo.png" alt="Viviane Talents Logo" class="logo">
-                </header>
+    <div class="center">
+        <img src="logo.png" alt="Viviane Talents Logo" class="logo">
+        <div class="content">
+            <div class="long-description">
+                We close IT vacancies of any complexity worldwide
             </div>
-            <div class="bottom-section">
-                <div class="long-description">
-                    We close IT vacancies of any complexity worldwide
-                </div>
-                <div class="facts">
-
-                    <hr>
-                    <div class="social-icons">
-                        <a href="https://t.me/vivianetalents" target="_blank"><i class="fa-brands fa-telegram fa-2x"></i></a>
-                        <a href="https://www.linkedin.com/company/viviane-talents/" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                        <a href="https://www.instagram.com/viviane_talents/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
-                        <a href="mailto:talentsviviane@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-2x"></i></a>
-                    </div>
-                </div>
+            <hr>
+            <div class="social-icons">
+                <a href="https://t.me/vivianetalents" target="_blank" aria-label="Telegram"><i class="fa-brands fa-telegram fa-2x"></i></a>
+                <a href="https://www.linkedin.com/company/viviane-talents/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://www.instagram.com/viviane_talents/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="mailto:talentsviviane@gmail.com" target="_blank" aria-label="Email"><i class="fa-solid fa-envelope fa-2x"></i></a>
             </div>
         </div>
-        <div class="lateral-right"></div>
     </div>
 </body>
 </html>
