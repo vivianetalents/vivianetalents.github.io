@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viviane Talents</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="menu">
+        <div class="menu-container">
+            <div class="menu-inner">
+                <nav>
+                    <a href="#about" data-i18n="nav:about">About us</a>
+                    <a href="#cases" data-i18n="nav:cases">Cases</a>
+                    <a href="#services" data-i18n="nav:services">Services</a>
+                    <a href="#contact" data-i18n="nav:contact">Contact</a>
+                </nav>
+                <div class="lang-selector-wrapper">
+                    <select class="lang-selector" aria-label="Select language">
+                        <option value="en" style="background-image:url('https://flagcdn.com/16x12/gb.png');">🇬🇧</option>
+                        <option value="ru" style="background-image:url('https://flagcdn.com/16x12/ru.png');">🇷🇺</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head-box">
+        <div class="hero-logo">
+            <img src="logo.png" alt="Viviane Talents Logo" class="menu-logo-img">
+        </div>
+        <div class="head-statement" role="heading" aria-level="1">
+            <span class="line" data-i18n-html="hero:tagline_html">We hire  <span class="word accent">candidates</span> who <span class="word accent-alt">improve your business performance</span></span>
+        </div>
+        <div class="creative-contact-panel">
+            <div class="contact-blurb" data-i18n="hero:consult_blurb">Submit a request for an online consultation, and we'll provide 3–4 solutions to speed up filling your vacancies.</div>
+            <div class="contact-buttons">
+                <a href="https://t.me/vivianetalents" target="_blank" rel="noopener noreferrer" class="contact-btn telegram-btn" data-i18n="hero:telegram_btn">Telegram</a>
+                <a href="mailto:talentsviviane@gmail.com" class="contact-btn email-btn" data-i18n="hero:email_btn">Email us</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="section" id="about">
+    <span class="eyebrow" data-i18n="about:eyebrow">Who we are</span>
+    <h2 data-i18n="about:title">About us</h2>
+    <p class="lead" data-i18n="about:p1">Experience in international recruitment in the EU, Russia, and Belarus.</p>
+    <p class="lead" data-i18n="about:p2">We hire middle/senior/lead/C-level candidates in various technology stacks.</p>
+    <p class="lead" data-i18n="about:p3">Slots casino, Game dev, Crypto, SaaS, Fintech, Web3, etc.</p>
+    <p class="lead" data-i18n="about:p4">Time-to-offer: 1-4 weeks</p>
+    <p class="lead" data-i18n="about:p5">Closing vacancies from 2-5 finalists.</p>
+    <p class="lead" data-i18n="about:p6">Every second or third candidate receives an offer.</p>
+</section>
+
+<section class="section" id="cases">
+    <span id="modal-title" data-i18n="cases:modal_title">Case details</span>
+    <span class="cases-eyebrow" data-i18n="cases:eyebrow">Cases</span>
+    <h2 data-i18n="cases:recent_heading">Recent hiring cases</h2>
+
+    <!-- Cases carousel -->
+    <div class="cases-carousel" aria-label="Case studies carousel">
+        <button class="cases-nav prev" type="button" aria-label="Previous cases"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+        <div class="cases-viewport">
+            <div class="cases-track"><!-- populated dynamically --></div>
+        </div>
+        <button class="cases-nav next" type="button" aria-label="Next cases"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+    </div>
+</section>
+
+
+<span id="services" aria-hidden="true"></span>
+<section class="section" id="benefits">
+    <div class="timeline-shell">
+        <div class="timeline-header">
+            <span class="benefits-eyebrow" data-i18n="benefits:eyebrow">Timeline of value</span>
+            <h2 class="benefits-title" data-i18n="benefits:title">Advantages of working with us:</h2>
+        </div>
+        <ol class="timeline-list">
+            <li class="timeline-item">
+                <span><i aria-hidden="true"></i></span>
+                <div class="timeline-content">
+                    <h3 data-i18n="benefits:item1_title">Kickoff and turnkey engagement</h3>
+                    <p data-i18n="benefits:item1_body">We work on a turnkey basis, as well as with your other contractors. A recruiter manages the vacancy from the moment the application is closed until the end of the candidate's probationary period. We evaluate candidates based on their personal qualities, motivators, professional competencies, and values.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <span><i aria-hidden="true"></i></span>
+                <div class="timeline-content">
+                    <h3 data-i18n="benefits:item2_title">Shortlist and interviews</h3>
+                    <p data-i18n="benefits:item2_body">Every second or third candidate receives an offer after a technical interview.</p>
+                </div>
+            </li>
+            <li class="timeline-item">
+                <span><i aria-hidden="true"></i></span>
+                <div class="timeline-content">
+                    <h3 data-i18n="benefits:item3_title">Offer and long‑term fit</h3>
+                    <p data-i18n="benefits:item3_body">We not only find candidates with suitable experience but also predict their effectiveness, engagement, and long‑term fit with the company.</p>
+                </div>
+            </li>
+        </ol>
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <div class="contact-card">
+        <div class="contact-media">
+            <img src="volha_1.jpg" alt="Volha Vornei Grings, CEO" class="contact-photo" loading="lazy" decoding="async">
+            <div class="contact-badge" data-i18n="contact:badge">Direct line • CEO</div>
+            <div class="contact-caption" data-i18n="contact:caption">Let’s discuss your hiring goals and timeline.</div>
+        </div>
+        <div class="contact-content">
+            <h2 data-i18n="contact:heading">Submit a consultation request with Volha Vornei Grings, CEO</h2>
+            <p class="contact-sub" data-i18n="contact:sub">Share a few details and we’ll get back quickly on Telegram.</p>
+            <form class="formal-contact-form" novalidate>
+                <div class="form-grid">
+                    <label class="form-field">
+                        <input type="text" name="name" placeholder="" data-i18n-placeholder="contact:name_placeholder" required>
+                    </label>
+                    <label class="form-field">
+                        <input type="tel" name="phone" placeholder="" data-i18n-placeholder="contact:phone_placeholder" required>
+                    </label>
+                    <label class="form-field">
+                        <textarea name="message" placeholder="" data-i18n-placeholder="contact:message_placeholder" rows="5" required></textarea>
+                    </label>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="cta-telegram" data-i18n="contact:send_btn">Send via Telegram</button>
+                    <span class="helper-note" data-i18n="contact:helper_note">Opens Telegram with your message pre-filled.</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-col left">
+
+            <ul class="footer-list">
+                <li>
+                    <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                    <a href="mailto:talentsviviane@gmail.com" aria-label="Email">talentsviviane@gmail.com</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                    <a href="tel:+995568891247" aria-label="Phone">+995568891247</a>
+                </li>
+            </ul>
+            <div class="footer-social" aria-label="Social media">
+                <a href="https://www.linkedin.com/company/viviane-talents/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://t.me/vivianetalents" target="_blank" aria-label="Telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://www.xing.com/pages/viviane-talents" target="_blank" aria-label="Xing">
+                    <i class="fa-brands fa-xing"></i>
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61581005023486" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://wellfound.com/company/viviane-talents" target="_blank" aria-label="Wellfound (AngelList)">
+                    <i class="fa-brands fa-angellist"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="footer-col right">
+            <img src="logo_448x448.png" alt="Viviane Talents logo" class="footer-logo-mark">
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div>© <span data-current-year>2025</span> Viviane Talents.</div>
+    </div>
+</footer>
+
+<div class="modal-backdrop" id="case-modal" aria-hidden="true">
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button class="modal-close" type="button" aria-label="Close"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+        <div class="modal-content" tabindex="0"></div>
+    </div>
+</div>
+
+<script src="i18n.js"></script>
+<script src="javascript.js"></script>
+</body>
+</html>
