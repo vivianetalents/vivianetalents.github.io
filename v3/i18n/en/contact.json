@@ -1,0 +1,21 @@
+{
+  "heading": "Submit a consultation request with Volha Vornei Grings, CEO",
+  "sub": "Share a few details and we’ll get back quickly on Telegram.",
+  "name_placeholder": "Your name",
+  "phone_placeholder": "Phone number OR Telegram OR e-mail",
+  "message_placeholder": "Message",
+  "send_btn": "Send via Telegram",
+  "helper_note": "Opens Telegram with your message pre-filled.",
+  "badge": "Direct line • CEO",
+  "caption": "Let’s discuss your hiring goals and timeline.",
+  "form_incomplete": "Please fill in your name and message.",
+  "copied_opening": "Message copied. Opening Telegram chat… Paste it there.",
+  "opening_no_copy": "Opening Telegram. You may need to paste manually.",
+  "toast_retry": "If Telegram chat did not open, use Share to select a destination or copy manually.",
+  "open_chat_again_btn": "Open Chat Again",
+  "browser_chat_btn": "Browser Chat",
+  "share_instead_btn": "Share Instead",
+  "open_share_btn": "Open Share",
+  "retry_app_btn": "Retry App"
+}
+
