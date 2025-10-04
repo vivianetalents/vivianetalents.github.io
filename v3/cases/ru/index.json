@@ -1,0 +1,30 @@
+[
+  {
+    "id": "case-1",
+    "title": "Senior Android инженер — Fintech",
+    "summary": "Закрыто за 2 недели после 6 месяцев без результатов; стабилизировали обновления рыночных данных и улучшили надёжность кошелька.",
+    "tags": ["Android", "Kotlin", "Fintech", "Mobile", "CI/CD"],
+    "contentPath": "cases/ru/case-1.html"
+  },
+  {
+    "id": "case-2",
+    "title": "Manual QA с автоматизацией — SaaS (Вильнюс)",
+    "summary": "Найм за 1 месяц после 8+ месяцев открытой вакансии; меньше критичных багов и быстрее стабильные релизы.",
+    "tags": ["QA", "Automation", "SaaS", "Mobile", "Web", "Vilnius", "Russian"],
+    "contentPath": "cases/ru/case-2.html"
+  },
+  {
+    "id": "case-3",
+    "title": "Embedded Middleware Developer — IoT",
+    "summary": "3 недели до оффера; сложный стек (Embedded Linux, Zigbee/BLE/Z-Wave); кандидат выбрал продукт вместо более высокого оффера.",
+    "tags": ["Embedded", "Linux", "IoT", "Zigbee", "BLE", "Z-Wave", "C/C++"],
+    "contentPath": "cases/ru/case-3.html"
+  },
+  {
+    "id": "case-4",
+    "title": "Data Engineer — Gaming (DWH, BigQuery)",
+    "summary": "3 недели до оффера; улучшено качество данных, упрощён DWH, критическая отчётность стала быстрее в 2 раза.",
+    "tags": ["Data", "DWH", "BigQuery", "Airflow", "dbt", "Python", "Gaming"],
+    "contentPath": "cases/ru/case-4.html"
+  }
+]
