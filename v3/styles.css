@@ -1471,47 +1471,104 @@ footer {
 
 /* Language selector styles */
 .lang-selector-wrapper {
+  position: relative;
   margin-left: 0;
   display: flex;
   align-items: center;
 }
 
 .lang-selector {
-  /* Shrunk to 30% of previous 90px min-width (≈27px) */
-  width: 27px;
-  min-width: 27px;
-  padding: 0;
-  /* Remove horizontal padding so total width stays tight */
-  text-align: center;
-  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.04));
   color: #EDEAF6;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-  outline: none;
-  height: 32px;
-  appearance: none;
-  -webkit-appearance: none;
-  transition: border 0.2s, box-shadow 0.2s;
-  line-height: 1;
-  /* Keep flag vertically centered */
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lang-selector:hover {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.08));
+  border-color: rgba(255, 255, 255, 0.24);
 }
 
 .lang-selector:focus {
-  border: 1.5px solid #CC8CF0;
+  outline: none;
+  border-color: #CC8CF0;
   box-shadow: 0 0 0 2px #CC8CF033;
+}
+
+.flag-icon {
+  width: 16px;
+  height: 12px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.lang-code {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 4px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.06));
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  padding: 4px;
+  min-width: 120px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.lang-dropdown[hidden] {
+  display: none;
+}
+
+.lang-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  color: #EDEAF6;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.lang-option:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.lang-option[aria-selected="true"] {
+  background: rgba(204, 140, 240, 0.15);
 }
 
 @media (max-width: 600px) {
   .lang-selector {
-    width: 24px;
-    min-width: 24px;
-    height: 26px;
+    padding: 4px 8px;
     font-size: 11px;
   }
 
-  .lang-selector-wrapper {
-    margin-left: 0;
+  .lang-dropdown {
+    min-width: 100px;
+  }
+
+  .lang-option {
+    padding: 6px 8px;
+    font-size: 11px;
   }
 }
