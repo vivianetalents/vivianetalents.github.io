@@ -1,0 +1,10 @@
+{
+  "eyebrow": "Cases",
+  "recent_heading": "Recent hiring cases",
+  "modal_title": "Case details",
+  "fallback_modal_body": "Details are not available right now.",
+  "read_more": "Read more",
+  "load_error": "Could not load cases at the moment.",
+  "open_case_aria": "Open case: {{title}}",
+  "generic_case": "Case"
+}
