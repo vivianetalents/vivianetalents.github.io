@@ -1,0 +1,10 @@
+{
+  "eyebrow": "Кейсы",
+  "recent_heading": "Недавние кейсы найма",
+  "modal_title": "Детали кейса",
+  "fallback_modal_body": "Детали сейчас недоступны.",
+  "read_more": "Подробнее",
+  "load_error": "Не удалось загрузить кейсы.",
+  "open_case_aria": "Открыть кейс: {{title}}",
+  "generic_case": "Кейс"
+}

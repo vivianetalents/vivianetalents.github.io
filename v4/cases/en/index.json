@@ -1,0 +1,31 @@
+[
+  {
+    "id": "case-1",
+    "title": "Senior Android Engineer — Fintech",
+    "summary": "Filled in 2 weeks after 6 months stalled search; stabilized market data updates and improved wallet reliability.",
+    "tags": ["Android", "Kotlin", "Fintech", "Mobile", "CI/CD"],
+    "contentPath": "cases/en/case-1.html"
+  },
+  {
+    "id": "case-2",
+    "title": "Manual QA with Automation — SaaS (Vilnius)",
+    "summary": "Filled in 1 month after 8+ months open; fewer critical bugs and faster, more stable releases.",
+    "tags": ["QA", "Automation", "SaaS", "Mobile", "Web", "Vilnius", "Russian"],
+    "contentPath": "cases/en/case-2.html"
+  },
+  {
+    "id": "case-3",
+    "title": "Embedded Middleware Developer — IoT",
+    "summary": "3 weeks to signed offer; complex stack (Embedded Linux, Zigbee/BLE/Z-Wave); candidate chose product over higher offer.",
+    "tags": ["Embedded", "Linux", "IoT", "Zigbee", "BLE", "Z-Wave", "C/C++"],
+    "contentPath": "cases/en/case-3.html"
+  },
+  {
+    "id": "case-4",
+    "title": "Data Engineer — Gaming (DWH, BigQuery)",
+    "summary": "3 weeks to offer; better data quality, simpler DWH, and critical reporting 2x faster.",
+    "tags": ["Data", "DWH", "BigQuery", "Airflow", "dbt", "Python", "Gaming"],
+    "contentPath": "cases/en/case-4.html"
+  }
+]
+
